@@ -1,4 +1,4 @@
-Python the script for updating Codium IDE for Clear Linux.
+Python the script for updating Codium IDE(VS Code fork without telemetry) for Clear Linux.
 
 # How to use
 
