@@ -20,7 +20,7 @@ def getHeader(arrayOfObj):
 def getUpdateName(arrayOfObj):
     for item in arrayOfObj:
         parsedItem = item.find('span', {'class': 'flex-auto'}).text
-        if parsedItem[-4:] == '.rpm':
+        if parsedItem[-11:] == '.x86_64.rpm':
             return parsedItem
 
 
